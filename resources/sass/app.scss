@@ -1,0 +1,20 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+$fa-font-path:"../webfonts";
+
+// Bootstrap
+@import '~bulma/bulma';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~buefy/dist/buefy';
+@import'helpers';
+@import'media';
+

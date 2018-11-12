@@ -1,0 +1,388 @@
+.sectionbox{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                url("../images/background.1.png");
+               
+  }
+
+  .richesofgrace{
+  background:linear-gradient(rgba(9, 206, 163, 0.5), rgba(245, 116, 11, 0.5)),
+   url("../images/rectangle.png");
+  background-size: cover;
+  height:80%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+.eventitle{
+  background-image: 
+  url("../images/slid-3.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ max-width: 100%;
+ height: 30%;
+ text-align: center;
+ margin-bottom: 0.8em;
+}
+.eventitle h1{
+line-height: 1.6em;
+font-size: 3em;
+margin-top: 2em;
+color: #ffffff;
+}
+.eventitle p{
+  color: #ffffff;
+  line-height: 1.5em;
+  font-size: large;
+}
+
+/* lastest sermon style */
+.lastest-heading{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../images/slid-3.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ max-width: 100%;
+ height: 30%;
+ padding-top: 1.7em;
+ text-align: center;
+ margin-bottom: 0.8em;
+ 
+}
+/* #testimonial4{
+  overflow: hidden;
+  min-height: 375px;
+  position: relative;
+  background:#63009E;
+  background: url(../images/slid-6.jpg);
+  background-size:cover;
+  } */
+
+/* .upcoming{
+  width: 800px;
+  height:400px;
+  background-color: aquamarine;
+  margin: 0px auto;
+  overflow: hidden;
+box-shadow: 0px 0px 9px 12 black;
+}
+
+.upcoming ul li{
+  position: relative;
+  width: 160px;
+  float:left;
+  transition: all 0.5s;
+}
+.upcoming ul:hover li{
+  width: 40px;
+ }
+  .upcoming ul li:hover{
+    width: 640px;
+
+  }
+
+    .upcoming ul li:hover{
+      width: 640px;
+
+    }
+    .upcoming ul li img{
+      width: 800px;
+      height: 400px;
+      display: block;
+    }
+    .box-set{
+      position: absolute;
+      left: 0;
+      bottom: 0px;
+      width:640px;
+      height:auto;
+      background-color: rgba(49, 42, 42, 0.5);
+    }
+    .box-set a {
+      display: block;
+      padding: 25px;
+      color: aliceblue;
+      text-decoration: none
+    }
+   */
+
+   .container-slide {
+    max-width: 100%;
+    height: 100%!important;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .h1 {
+    color: #212121;
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 15em;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #EEE;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #455a64;
+  }
+  
+  .one {
+    background: url("../images/slid-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .two {
+    background:url("../images/slid-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .three {
+    background: url("../images/slid-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .four {
+    background: url("../images/slid-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .five {
+    background: urlurl("../images/slid-5.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .text-area {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 30px;
+    background: rgba(198, 198, 198, 0.7);
+  }
+  
+  .text-area h3 {
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 10px;
+  }
+  
+  .text-area p {
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+   /* testimony style */
+   
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+   {
+    .container-slide {
+      max-width: 100%;
+      box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+      margin-right: 1em;
+    }
+    
+    .h1 {
+      color: #212121;
+      font-family: "Raleway", sans-serif;
+      font-size: 60px;
+      text-align: center;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      margin-bottom: 15em;
+      font-weight: 900;
+      text-shadow: 1px 1px 2px #EEE;
+    }
+    
+    .slide {
+      margin-top: 67%;
+      margin-right: 10px;
+      height: 100%;
+      max-width: 100%;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 5px #455a64;
+    }
+    
+    .one {
+      background: url("../images/slid-1.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 20px;
+      z-index: 1;
+    }
+    
+    .two {
+      background:url("../images/slid-2.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 20px;
+      z-index: 1;
+    }
+    
+    .three {
+      background: url("../images/slid-3.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 20px;
+      z-index: 1;
+    }
+    
+    .four {
+      background: url("../images/slid-4.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 20px;
+      z-index: 1;
+    }
+    
+    .five {
+      background: urlurl("../images/slid-5.jpg");
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 20px;
+      z-index: 1;
+    }
+    
+    .text-area {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 5px 30px;
+      background: rgba(198, 198, 198, 0.7);
+    }
+    
+    .text-area h3 {
+      font-size: 30px;
+      margin: 0px;
+      padding-top: 10px;
+    }
+    
+    .text-area p {
+      margin: 0px;
+      padding-bottom: 10px;
+    }
+
+   }
+   .main-gallery {
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-top: solid 10px #7AA641;
+  
+  }
+  
+  .gallery-cell {
+    width: 100%;
+  }
+  
+  .testimonial {
+    text-align: center;
+    max-width: 850px;
+    margin: 100px auto 130px auto;
+    padding: 0 20px;
+  }
+  
+  .testimonial-avatar {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-quote {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 0;
+  }
+  
+  .testimonial-author {
+    display: block;
+    font-weight: 800;
+    color: #7AA641;
+  }
+  
+  .flickity-page-dots {
+    bottom: 25px;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+    background: #7AA641;
+  }
+  .gallery-cell {
+    width: 100%;
+  }
+  
+  .testimonial {
+    text-align: center;
+    max-width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: 100px auto 130px auto;
+    padding: 0 20px;
+  }
+  
+  .testimonial-avatar {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-quote {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 0;
+  }
+  
+  .testimonial-author {
+    display: block;
+    font-weight: 800;
+    color: #7AA641;
+  }
+  
+  .flickity-page-dots {
+    bottom: 25px;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+    background: #7AA641;
+  }
+  ol li{
+      list-style: none;
+  }
