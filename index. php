@@ -17,5 +17,12 @@
           <li>contact</li>
       </ul>
   </nav>
+  <section>
+      <div class="about-section">
+          <div class="about-item">right</div>
+          <div class="about-item">main</div>
+          <div class="about-item">left</div>
+      </div>
+  </section>
 </body>
 </html>
